@@ -78,12 +78,12 @@ img {
 }
 
 .button-1 {
-  background: red;
+  background: rgb(243, 62, 62);
   border-bottom-right-radius: 50px;
 }
 
 .button-2 {
-  background: #000;
+  background: #404040;
   border-top-left-radius: 50px;
   padding: 10px 20px;
 }
@@ -119,6 +119,9 @@ img {
 #showcase .showcase-row {
   display: flex;
 }
+#showcase .showcase-row h3 {
+  font-weight: 300;
+}
 #showcase .showcase-row .showcase-text {
   margin-top: 3rem;
 }
@@ -152,6 +155,7 @@ img {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 2rem;
+  width: 70px;
 }
 #menu .menu-row {
   display: flex;
@@ -169,6 +173,7 @@ img {
   display: block;
   margin: 0 auto;
   padding-bottom: 3rem;
+  width: 70px;
 }
 #about .about-row {
   display: flex;
@@ -187,6 +192,7 @@ img {
   text-align: center;
   margin: 0 auto;
   padding-bottom: 3rem;
+  width: 70px;
 }
 #book form .flexbox-1 {
   flex: 1;
